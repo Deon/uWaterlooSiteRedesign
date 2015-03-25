@@ -1,0 +1,16 @@
+{
+    "sass.enabled": false,
+    "path": {
+        "core.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "./",
+                "sourceComments": false,
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": false,
+            "fonts.fontSize": "16px",
+            "brackets-git.gitPath": "git"
+        }
+    }
+}

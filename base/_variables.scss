@@ -1,0 +1,65 @@
+@font-face {
+    font-family: LiberationSans;
+    src: url("./font/LiberationSans/LiberationSans-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: Gotham;
+    src: url("./font/Gotham-Medium.otf");
+}
+
+@font-face{
+    font-family: GothamLight;
+    src: url("./font/Gotham-Light.otf")
+}
+
+
+$LiberationSans: LiberationSans, Arial, sans-serif;
+$Gotham: Gotham, Arial, sans-serif;
+$GothamLight: GothamLight, LiberationSans, Arial, sans-serif;
+
+// Typography
+$base-font-family: $LiberationSans;
+$heading-font-family: $Gotham;
+
+// Font Sizes
+$base-font-size: 1rem;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$dark-gray: #757575;
+$light-gray: #EEEEEE;
+$light-blue: #77bbff;
+$blue: #0073CF;
+$white: #ffffff;
+$black: #000000;
+$gold: #FCD450;
+$light-green: #B6BF00;
+$orange: #E98300;
+$teal: #009AA6;
+$purple: #57068C;
+$pink: #E0249A;
+$light-red: #F77777;
+$red: #96172E;
+
+// Font Colors
+$base-background-color: $white;
+$base-font-color: $black;
+$action-color: $blue;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
